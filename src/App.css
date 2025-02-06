@@ -106,10 +106,10 @@ span.chip {
 }
 
 .btn-section > button.correct{
-    background-color: green;
+    background-color: #10A95B;
 }
 .btn-section > button.wrong{
-    background-color: orangered
+    background-color: #EC5D49;
 }
 .new-game{
     font-family: "Hanken Grotesk", Arial, sans-serif;

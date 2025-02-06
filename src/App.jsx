@@ -28,7 +28,7 @@ function App() {
 
   const letterElements = currentWord.split("").map((letter, index) => (
     <span key={index} className="letter">
-      {letter.toUpperCase()}
+      {guessedLetters.includes(letter) && letter.toUpperCase()}
     </span>
   ));
 
