@@ -95,7 +95,7 @@ span.chip {
     margin:10px auto 36px;
 }  
 
-.btn{
+.btn-section > button{
   font-family: "Hanken Grotesk", Arial, sans-serif;
   cursor: pointer;
   width:35px;
@@ -105,6 +105,12 @@ span.chip {
   border:none;
 }
 
+.btn-section > button.correct{
+    background-color: green;
+}
+.btn-section > button.wrong{
+    background-color: orangered
+}
 .new-game{
     font-family: "Hanken Grotesk", Arial, sans-serif;
     background-color: #11B5E5;
